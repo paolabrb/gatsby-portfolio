@@ -64,24 +64,34 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span> */}
           <Accordion>
-            <Card>
+            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  Click me!
+                <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ boxShadow: 'none' }}>
+                  Le Wagon Berlin
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>Hello! I'm the body</Card.Body>
               </Accordion.Collapse>
             </Card>
-            <Card>
+            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                  Click me!
+                <Accordion.Toggle as={Button} variant="link" eventKey="1"  style={{ boxShadow: 'none' }}>
+                  Roland Berger GmbH
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>Hello! I'm another body</Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{ boxShadow: 'none' }}>
+                  McDermott Will & Emery
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="2">
+                <Card.Body>Hello! I'm the body</Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
