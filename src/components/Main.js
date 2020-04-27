@@ -51,12 +51,19 @@ class Main extends React.Component {
           </p>
           <p>
             Looking for a new challenge, I completed Le Wagon Full Time Web Development Bootcamp in December 2019. The bootcamp confirmed my will to start a 
-            new career in tech and taught me how to work with <strong>Ruby on Rails</strong>, <strong>JavaScript</strong>, <strong>HTML/(S)CSS/Bootstrap</strong> - together with <strong>Git/Github</strong> and databases like <strong>PostgreSQL/SQLite</strong>.
-            The learning didn't stop with the bootcamp, though: I keep on training my RoR skills and learning more about <strong>React</strong> and <strong>Node.js</strong>. 
+            new career in tech and taught me how to work with:
+            <ul className="fa-ul">
+              <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>Ruby on Rails</li>
+              <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>JavaScript (ES6)</li>
+              <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>HTML/(S)CSS/Bootstrap</li>
+              <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>Git/Github</li>
+              <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>PostgreSQL/SQLite</li>
+            </ul> 
+            The learning didn't stop with the bootcamp, though: I keep on training my RoR skills and diving into <strong>React</strong> and <strong>Node.js</strong>.
           </p>
-          <p>
+          {/* <p>
             Interested in some of my <a href="#work">work</a>?
-          </p>
+          </p> */}
           {close}
         </article>
 
