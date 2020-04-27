@@ -33,24 +33,17 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            CIO, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            I have always been a very organized, structured individual. After my language and literature studies I held 
+            administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
+            to deliver the best results, and how to take ownership and show initiative.           
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Looking for a new challenge, I completed Le Wagon Full Time Web Development Bootcamp in December 2019. The bootcamp confirmed my will to start a 
+            new career in tech and taught me how to work with <strong>Ruby on Rails</strong>, <strong>JavaScript</strong>, <strong>HTML/(S)CSS/Bootstrap</strong> - together with <strong>Git/Github</strong> and databases like <strong>PostgreSQL/SQLite</strong>.
+            The learning didn't stop with the bootcamp, though: I keep on training my RoR skills and learning more about <strong>React</strong> and <strong>Node.js</strong>. 
+          </p>
+          <p>
+            Interested in some of my <a href="#work">work</a>?
           </p>
           {close}
         </article>
