@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import profilepic from '../images/profile-pic.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import Card from 'react-bootstrap/Card'
@@ -41,9 +41,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          {/* <span className="image main">
-            <img src={pic01} alt="" />
-          </span> */}
+          <span className="image main">
+            <img src={profilepic} alt="" />
+          </span>
           <p>
             I have always been a very organized, structured individual. After my language and literature studies I held 
             administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
