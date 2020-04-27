@@ -78,3 +78,18 @@
 	button {
 		line-height: calc(#{_size(element-height)} - 2px);
 	}
+
+	/*Accordion BTN*/
+
+	.accordion-button {
+		box-shadow: none;
+		text-decoration: none;
+		&:hover {
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		&:enabled {
+			text-decoration: none;
+		}
+	}

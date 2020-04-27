@@ -26,6 +26,7 @@ class Main extends React.Component {
       border: 'transparent' 
     }
 
+
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -73,32 +74,41 @@ class Main extends React.Component {
           <Accordion>
             <Card style={ cardStyle }>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ boxShadow: 'none' }}>
+                <Accordion.Toggle as={Button} variant="link" eventKey="0" className="accordion-button">
                   Le Wagon Berlin
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body>Hello! I'm the body</Card.Body>
+                <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
+                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Teaching Assistant | Berlin (DE) | Jan 2020 -</p>
+                <p>Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card style={ cardStyle }>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1"  style={{ boxShadow: 'none' }}>
+                <Accordion.Toggle as={Button} variant="link" eventKey="1"  className="accordion-button">
                   Roland Berger GmbH
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body>Hello! I'm another body</Card.Body>
+                <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
+                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Team Personal Assistant | Berlin (DE) | Oct 2018 - Jul 2019</p>
+                <p>High-level executive support for partners, principals and consultants in the financial services department.</p>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card style={ cardStyle }>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{ boxShadow: 'none' }}>
+                <Accordion.Toggle as={Button} variant="link" eventKey="2" className="accordion-button">
                   McDermott Will & Emery
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body>Hello! I'm the body</Card.Body>
+                <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
+                  <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Executive Assistant | Milan (IT) | Feb 2016 - Sep 2017</p>
+                  <p>High level executive support for partners and associate lawyers.</p>  
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
