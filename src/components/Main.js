@@ -9,6 +9,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
 
 class Main extends React.Component {
+
   render() {
     let close = (
       <div
@@ -18,6 +19,12 @@ class Main extends React.Component {
         }}
       ></div>
     )
+
+    let cardStyle = {
+      backgroundColor: 'transparent', 
+      textAlign: 'center', 
+      border: 'transparent' 
+    }
 
     return (
       <div
@@ -64,7 +71,7 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span> */}
           <Accordion>
-            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
+            <Card style={ cardStyle }>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ boxShadow: 'none' }}>
                   Le Wagon Berlin
@@ -74,7 +81,7 @@ class Main extends React.Component {
                 <Card.Body>Hello! I'm the body</Card.Body>
               </Accordion.Collapse>
             </Card>
-            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
+            <Card style={ cardStyle }>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1"  style={{ boxShadow: 'none' }}>
                   Roland Berger GmbH
@@ -84,7 +91,7 @@ class Main extends React.Component {
                 <Card.Body>Hello! I'm another body</Card.Body>
               </Accordion.Collapse>
             </Card>
-            <Card style={{ backgroundColor: 'transparent', textAlign: 'center', border: 'transparent' }}>
+            <Card style={ cardStyle }>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{ boxShadow: 'none' }}>
                   McDermott Will & Emery
