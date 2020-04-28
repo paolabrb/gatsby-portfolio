@@ -13,4 +13,7 @@
 
 .portfolio-card-content {
     visibility: hidden;
+    a:hover {
+       text-decoration: none; 
+    }
 }
