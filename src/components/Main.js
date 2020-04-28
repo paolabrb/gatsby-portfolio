@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import profilepic from '../images/profile-pic.jpg'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import Accordion from 'react-bootstrap/Accordion'
+import aim from '../images/AIM.png'
+import ll from '../images/LL.png'
 
+import { Card, Button, Accordion, CardDeck } from 'react-bootstrap'
 
 class Main extends React.Component {
 
@@ -131,6 +131,28 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic03} alt="" />
           </span> */}
+          <CardDeck>
+            <Card className="bg-dark text-white">
+              <Card.Img src={aim}  alt="Card image" />
+              <Card.ImgOverlay>
+                <Card.Title>A I M</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <Card className="bg-dark text-white">
+              <Card.Img src={ll}  alt="Card image" />
+              <Card.ImgOverlay>
+                <Card.Title>LÄNDERLISTE</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </Card.Text>                   
+              </Card.ImgOverlay>
+            </Card>
+          </CardDeck>
           {close}
         </article>
 
