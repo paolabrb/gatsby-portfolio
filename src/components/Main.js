@@ -43,7 +43,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={profilepic} alt="" />
           </span>
-          <p className="intro-text">
+          <p className="small-description-text">
             Looking for a challenge, I completed Le Wagon Full Time Web Development Bootcamp in December 2019. The bootcamp confirmed my will to start a 
             new career in tech and taught me how to work with:
             <ul className="fa-ul">
@@ -71,7 +71,7 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
-          <p className="intro-text">
+          <p className="small-description-text">
             I have always been a very organized, structured individual. After my language and literature studies I held 
             administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
             to deliver the best results, and how to take ownership and show initiative.           
@@ -86,7 +86,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="0">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Teaching Assistant | Berlin (DE) | Jan 2020 -</p>
-                <p style={{fontSize: '0.9rem'}}>Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
+                <p className="small-description-text">Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -99,7 +99,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="1">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Team Personal Assistant | Berlin (DE) | Oct 2018 - Jul 2019</p>
-                <p style={{fontSize: '0.9rem'}}>High-level executive support for partners, principals and consultants in the financial services department.</p>
+                <p className="small-description-text">High-level executive support for partners, principals and consultants in the financial services department.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -112,7 +112,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="2">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                   <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Executive Assistant | Milan (IT) | Feb 2016 - Sep 2017</p>
-                  <p style={{fontSize: '0.9rem'}}>High level executive support for partners and associate lawyers.</p>  
+                  <p className="small-description-text">High level executive support for partners and associate lawyers.</p>  
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -139,7 +139,7 @@ class Main extends React.Component {
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>A I M</strong></Card.Title>
-                  <Card.Text>
+                  <Card.Text className="small-description-text">
                   AIM connects influencers with campaigns for good causes. Final group project for Le Wagon (Batch#322).
                   </Card.Text>
                   <a className="button special" href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
@@ -151,7 +151,7 @@ class Main extends React.Component {
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
-                  <Card.Text>
+                  <Card.Text className="small-description-text">
                   Länderliste lets you keep track of your travels and compare your statistics with your family or friends (family project).
                   </Card.Text>  
                   <a className="button special" href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>  
