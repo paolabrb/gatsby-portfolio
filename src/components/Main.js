@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import profilepic from '../images/profile-pic.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Accordion from 'react-bootstrap/Accordion'
@@ -44,13 +42,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={profilepic} alt="" />
           </span>
-          <p>
-            I have always been a very organized, structured individual. After my language and literature studies I held 
-            administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
-            to deliver the best results, and how to take ownership and show initiative.           
-          </p>
-          <p>
-            Looking for a new challenge, I completed Le Wagon Full Time Web Development Bootcamp in December 2019. The bootcamp confirmed my will to start a 
+          <p className="intro-text">
+            Looking for a challenge, I completed Le Wagon Full Time Web Development Bootcamp in December 2019. The bootcamp confirmed my will to start a 
             new career in tech and taught me how to work with:
             <ul className="fa-ul">
               <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>Ruby on Rails</li>
@@ -78,6 +71,11 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
+          <p className="intro-text">
+            I have always been a very organized, structured individual. After my language and literature studies I held 
+            administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
+            to deliver the best results, and how to take ownership and show initiative.           
+          </p>
           <Accordion>
             <Card style={ cardStyle }>
               <Card.Header>
@@ -130,18 +128,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Portfolio</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          </span> */}
           {close}
         </article>
 
