@@ -139,7 +139,7 @@ class Main extends React.Component {
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>A I M</strong></Card.Title>
-                  <Card.Text className="small-description-text">
+                  <Card.Text>
                   AIM connects influencers with campaigns for good causes. Final group project for Le Wagon (Batch#322).
                   </Card.Text>
                   <a className="button special" href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
@@ -151,7 +151,7 @@ class Main extends React.Component {
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
-                  <Card.Text className="small-description-text">
+                  <Card.Text>
                   Länderliste lets you keep track of your travels and compare your statistics with your family or friends (family project).
                   </Card.Text>  
                   <a className="button special" href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>  
