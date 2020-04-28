@@ -31,6 +31,8 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        {/* intro */}
+
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -59,6 +61,8 @@ class Main extends React.Component {
           </p> */}
           {close}
         </article>
+
+        {/* previous work */}
 
         <article
           id="work"
@@ -120,6 +124,8 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* portfolio elements */}
+
         <article
           id="portfolio"
           className={`${this.props.article === 'portfolio' ? 'active' : ''} ${
@@ -134,7 +140,7 @@ class Main extends React.Component {
           <CardDeck>
             <Card className="bg-dark text-white">
               <Card.Img src={aim}  alt="Card image" />
-              <Card.ImgOverlay>
+              <Card.ImgOverlay className="portfolio-card">
                 <Card.Title>A I M</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in to
@@ -142,9 +148,9 @@ class Main extends React.Component {
                 </Card.Text>
               </Card.ImgOverlay>
             </Card>
-            <Card className="bg-dark text-white">
+            <Card className="bg-dark">
               <Card.Img src={ll}  alt="Card image" />
-              <Card.ImgOverlay>
+              <Card.ImgOverlay className="portfolio-card">
                 <Card.Title>LÄNDERLISTE</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in to
@@ -155,6 +161,8 @@ class Main extends React.Component {
           </CardDeck>
           {close}
         </article>
+
+        {/* contact form and links  */}
 
         <article
           id="contact"
