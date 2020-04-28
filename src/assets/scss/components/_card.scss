@@ -1,4 +1,16 @@
 .portfolio-card {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
     text-align: center;
+
+    &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+        border-radius: 4px;
+    }
+    &:hover .portfolio-card-content {
+        display: block;   
+    }
+}
+
+.portfolio-card-content {
+    display: none;
 }

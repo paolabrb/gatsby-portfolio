@@ -24,7 +24,6 @@ class Main extends React.Component {
       border: 'transparent' 
     }
 
-
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -56,9 +55,6 @@ class Main extends React.Component {
             </ul> 
             The learning didn't stop with the bootcamp, though: I keep on training my RoR skills and diving into <strong>React</strong> and <strong>Node.js</strong>.
           </p>
-          {/* <p>
-            Interested in some of my <a href="#work">work</a>?
-          </p> */}
           {close}
         </article>
 
@@ -141,23 +137,27 @@ class Main extends React.Component {
             <Card className="bg-dark text-white">
               <Card.Img src={aim}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
-                <Card.Title><strong>A I M</strong></Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>
+                <div className="portfolio-card-content">
+                  <Card.Title><strong>A I M</strong></Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.
+                  </Card.Text>
+                  <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>
+                </div>
               </Card.ImgOverlay>
             </Card>
             <Card className="bg-dark">
               <Card.Img src={ll}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
-                <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>  
-                <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>                 
+                <div className="portfolio-card-content">
+                  <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.
+                  </Card.Text>  
+                  <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>  
+                </div>               
               </Card.ImgOverlay>
             </Card>
           </CardDeck>
