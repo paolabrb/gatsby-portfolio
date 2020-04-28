@@ -7,10 +7,10 @@
         border-radius: 4px;
     }
     &:hover .portfolio-card-content {
-        display: block;   
+        visibility: visible;   
     }
 }
 
 .portfolio-card-content {
-    display: none;
+    visibility: hidden;
 }
