@@ -141,21 +141,23 @@ class Main extends React.Component {
             <Card className="bg-dark text-white">
               <Card.Img src={aim}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
-                <Card.Title>A I M</Card.Title>
+                <Card.Title><strong>A I M</strong></Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
                 </Card.Text>
+                <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>
               </Card.ImgOverlay>
             </Card>
             <Card className="bg-dark">
               <Card.Img src={ll}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
-                <Card.Title>LÄNDERLISTE</Card.Title>
+                <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
-                </Card.Text>                   
+                </Card.Text>  
+                <a className="button special" href="#" target="_blank" rel="noopener noreferrer">Visit</a>                 
               </Card.ImgOverlay>
             </Card>
           </CardDeck>
