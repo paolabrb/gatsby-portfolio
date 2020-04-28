@@ -86,7 +86,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="0">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Teaching Assistant | Berlin (DE) | Jan 2020 -</p>
-                <p>Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
+                <p style={{fontSize: '0.9rem'}}>Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -99,7 +99,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="1">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Team Personal Assistant | Berlin (DE) | Oct 2018 - Jul 2019</p>
-                <p>High-level executive support for partners, principals and consultants in the financial services department.</p>
+                <p style={{fontSize: '0.9rem'}}>High-level executive support for partners, principals and consultants in the financial services department.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -112,7 +112,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="2">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                   <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Executive Assistant | Milan (IT) | Feb 2016 - Sep 2017</p>
-                  <p>High level executive support for partners and associate lawyers.</p>  
+                  <p style={{fontSize: '0.9rem'}}>High level executive support for partners and associate lawyers.</p>  
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
