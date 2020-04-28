@@ -166,17 +166,17 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://github.com/paolabrb" className="icon fa-github" target="_blank">
+              <a href="https://github.com/paolabrb" className="icon fa-github" target="_blank" rel="noopener noreferrer">
                 <span className="label">Github</span>
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/paolabarboglio" className="icon fa-linkedin" target="_blank">
+              <a href="https://linkedin.com/in/paolabarboglio" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
                 <span className="label">LinkedIN</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/paolabrbg/" className="icon fa-instagram" target="_blank">
+              <a href="https://www.instagram.com/paolabrbg/" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
                 <span className="label">Instagram</span>
               </a>
             </li>
