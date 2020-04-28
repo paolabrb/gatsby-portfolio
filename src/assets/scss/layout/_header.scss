@@ -135,10 +135,11 @@
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
           text-transform: uppercase;
           letter-spacing: _font(letter-spacing);
-          font-size: 0.6rem;
+          font-size: 0.77rem;
           font-family: _font(family);
           border: none;
           box-shadow: none;
+          margin: 0 auto;
 
           &:hover,
           &:focus {

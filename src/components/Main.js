@@ -123,13 +123,13 @@ class Main extends React.Component {
         {/* portfolio elements */}
 
         <article
-          id="portfolio"
-          className={`${this.props.article === 'portfolio' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Portfolio</h2>
+          <h2 className="major">Projects</h2>
           {/* <span className="image main">
             <img src={pic03} alt="" />
           </span> */}
