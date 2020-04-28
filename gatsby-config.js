@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Paola Barboglio | Web Development',
     description: 'Paola Barboglio | Web Development',
@@ -20,4 +19,5 @@ module.exports = {
     },
     'gatsby-plugin-sass',
   ],
+  pathPrefix: '/portfolio',
 }
