@@ -89,7 +89,11 @@
 		}
 
 		@include breakpoint(small) {
+			#main {
+				max-width: 60%;
+			}
 			article {
+				max-width: 60%;
 				@include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
 				.close {
 					&:before {
@@ -104,7 +108,11 @@
 		}
 
 		@include breakpoint(xsmall) {
+			#main {
+				max-width: 60%;
+			}			
 			article {
+				max-width: 60%;
 				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
 			}
 		}
