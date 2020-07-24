@@ -3,6 +3,7 @@ import React from 'react'
 import profilepic from '../images/profile-pic.jpg'
 import aim from '../images/AIM.png'
 import ll from '../images/LL.png'
+import jw from '../images/JW.png'
 
 import { Card, Button, Accordion, CardDeck } from 'react-bootstrap'
 
@@ -148,7 +149,7 @@ class Main extends React.Component {
           </span> */}
           <CardDeck>
           <Card className="bg-dark text-white">
-              <Card.Img src={aim}  alt="Card image" />
+              <Card.Img src={jw}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>
