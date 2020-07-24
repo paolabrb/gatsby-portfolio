@@ -4,6 +4,7 @@ import profilepic from '../images/profile-pic.jpg'
 import aim from '../images/AIM.png'
 import ll from '../images/LL.png'
 import jw from '../images/JW.png'
+import covidmaster from '../images/covidmaster.png'
 
 import { Card, Button, Accordion, CardDeck } from 'react-bootstrap'
 
@@ -147,21 +148,34 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic03} alt="" />
           </span> */}
-          <CardDeck>
-          <Card className="bg-dark text-white">
+          <CardDeck className="d-flex flex-wrap">
+          <Card className="bg-dark text-white proj-card">
               <Card.Img src={jw}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>
                     <a href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Julia Weidner</a></strong></Card.Title>
                   <Card.Text>
-                  Portfolio Website for Julia Weidner, screenwriter based in Munich.
+                  Portfolio Website for Julia Weidner, screenwriter based in Munich. Made with <strong>GatsbyJS</strong>, <strong>React</strong>.
                   </Card.Text>
                   {/* <a className="button special" href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Visit</a> */}
                 </div>
               </Card.ImgOverlay>
             </Card>
-            <Card className="bg-dark text-white">
+            <Card className="bg-dark text-white proj-card">
+              <Card.Img src={covidmaster}  alt="Card image" />
+              <Card.ImgOverlay className="portfolio-card">
+                <div className="portfolio-card-content">
+                  <Card.Title><strong>
+                    <a href="https://covidmaster.netlify.app/" target="_blank" rel="noopener noreferrer">Covid-Master</a></strong></Card.Title>
+                  <Card.Text>
+                  Final and winner project for the #codeathome Bootcamp (TechLabs). Made with <strong>React</strong>.
+                  </Card.Text>
+                  {/* <a className="button special" href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Visit</a> */}
+                </div>
+              </Card.ImgOverlay>
+            </Card>
+            <Card className="bg-dark text-white proj-card">
               <Card.Img src={aim}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
@@ -170,13 +184,13 @@ class Main extends React.Component {
                     </strong>
                   </Card.Title>
                   <Card.Text>
-                  AIM connects influencers with campaigns for good causes. Final group project for Le Wagon (Batch#322).
+                  AIM connects influencers with campaigns for good causes. Final group project for Le Wagon (Batch#322). Made with <strong>Ruby on Rails</strong>, <strong>PostgreSQL</strong>.
                   </Card.Text>
                   {/* <a className="button special" href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a> */}
                 </div>
               </Card.ImgOverlay>
             </Card>
-            <Card className="bg-dark">
+            <Card className="bg-dark text-white proj-card">
               <Card.Img src={ll}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
@@ -185,7 +199,7 @@ class Main extends React.Component {
                     </strong>
                   </Card.Title>
                   <Card.Text>
-                  Länderliste lets you keep track of your travels and compare your statistics with your family or friends.
+                  Länderliste lets you keep track of your travels and compare your statistics with your family or friends. Made with <strong>Ruby on Rails</strong>, <strong>PostgreSQL</strong>.
                   </Card.Text>  
                   {/* <a className="button special" href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>   */}
                 </div>               
