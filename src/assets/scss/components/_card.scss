@@ -1,3 +1,8 @@
+.proj-card {
+    min-width: 30%;
+    margin: 5px;
+}
+
 .portfolio-card {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
     text-align: center;
@@ -12,10 +17,15 @@
     &:hover .portfolio-card-content {
         visibility: visible;   
     }
+    a {
+        &:hover {
+            color: white;
+        }
+    }
 }
 
 .portfolio-card-content {
-    
+    font-size: .7em;
     visibility: hidden;
     a:hover {
        text-decoration: none; 
