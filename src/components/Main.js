@@ -74,29 +74,42 @@ class Main extends React.Component {
           <p className="small-description-text">
             I have always been a very organized, structured individual. After my language and literature studies I held 
             administrative positions for more than two years, at top-tier professional services companies - I have learned to reliably perform under great pressure, to always strive 
-            to deliver the best results, and how to take ownership and show initiative.           
+            to deliver the best results, and how to take ownership and show initiative. Now I work as a <strong>freelance Web Developer</strong> and <strong>Translator/Localizator</strong>.           
           </p>
           <Accordion>
-            <Card style={ cardStyle }>
+          <Card style={ cardStyle }>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0" className="accordion-button">
-                  Le Wagon Berlin
+                  TechLabs e.V.
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
-                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Teaching Assistant | Berlin (DE) | Jan 2020 -</p>
+                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Web Developer | Berlin (DE) | Jul 2020 -</p>
+                <p className="small-description-text">Work with the Website Team to improve frontend and add new features to the TechLabs website.</p>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card style={ cardStyle }>
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="1" className="accordion-button">
+                  Le Wagon Berlin
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="1">
+                <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
+                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Teaching Assistant | Berlin (DE) | Jan 2020 - Mar 2020</p>
                 <p className="small-description-text">Support the learning process of Le Wagon students, explaining new concepts and coding challenges.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card style={ cardStyle }>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1"  className="accordion-button">
+                <Accordion.Toggle as={Button} variant="link" eventKey="2"  className="accordion-button">
                   Roland Berger GmbH
                 </Accordion.Toggle>
               </Card.Header>
-              <Accordion.Collapse eventKey="1">
+              <Accordion.Collapse eventKey="2">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Team Personal Assistant | Berlin (DE) | Oct 2018 - Jul 2019</p>
                 <p className="small-description-text">High-level executive support for partners, principals and consultants in the financial services department.</p>
@@ -105,11 +118,11 @@ class Main extends React.Component {
             </Card>
             <Card style={ cardStyle }>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="2" className="accordion-button">
+                <Accordion.Toggle as={Button} variant="link" eventKey="3" className="accordion-button">
                   McDermott Will & Emery
                 </Accordion.Toggle>
               </Card.Header>
-              <Accordion.Collapse eventKey="2">
+              <Accordion.Collapse eventKey="3">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                   <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Executive Assistant | Milan (IT) | Feb 2016 - Sep 2017</p>
                   <p className="small-description-text">High level executive support for partners and associate lawyers.</p>  
@@ -134,15 +147,31 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span> */}
           <CardDeck>
+          <Card className="bg-dark text-white">
+              <Card.Img src={aim}  alt="Card image" />
+              <Card.ImgOverlay className="portfolio-card">
+                <div className="portfolio-card-content">
+                  <Card.Title><strong>
+                    <a href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Julia Weidner</a></strong></Card.Title>
+                  <Card.Text>
+                  Portfolio Website for Julia Weidner, screenwriter based in Munich.
+                  </Card.Text>
+                  {/* <a className="button special" href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Visit</a> */}
+                </div>
+              </Card.ImgOverlay>
+            </Card>
             <Card className="bg-dark text-white">
               <Card.Img src={aim}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
-                  <Card.Title><strong>A I M</strong></Card.Title>
+                  <Card.Title><strong>
+                    <a href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">A I M</a>
+                    </strong>
+                  </Card.Title>
                   <Card.Text>
                   AIM connects influencers with campaigns for good causes. Final group project for Le Wagon (Batch#322).
                   </Card.Text>
-                  <a className="button special" href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+                  {/* <a className="button special" href="https://aimagency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a> */}
                 </div>
               </Card.ImgOverlay>
             </Card>
@@ -150,11 +179,14 @@ class Main extends React.Component {
               <Card.Img src={ll}  alt="Card image" />
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
-                  <Card.Title><strong>LÄNDERLISTE</strong></Card.Title>
+                  <Card.Title><strong>
+                    <a href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Länderliste</a>
+                    </strong>
+                  </Card.Title>
                   <Card.Text>
-                  Länderliste lets you keep track of your travels and compare your statistics with your family or friends (family project).
+                  Länderliste lets you keep track of your travels and compare your statistics with your family or friends.
                   </Card.Text>  
-                  <a className="button special" href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>  
+                  {/* <a className="button special" href="https://laenderliste.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>   */}
                 </div>               
               </Card.ImgOverlay>
             </Card>

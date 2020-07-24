@@ -12,10 +12,15 @@
     &:hover .portfolio-card-content {
         visibility: visible;   
     }
+    a {
+        &:hover {
+            color: white;
+        }
+    }
 }
 
 .portfolio-card-content {
-    
+    font-size: .5em;
     visibility: hidden;
     a:hover {
        text-decoration: none; 
