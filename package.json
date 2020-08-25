@@ -31,7 +31,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "yarn-audit-fix": "^2.1.0"
   },
   "repository": {
     "type": "git",
