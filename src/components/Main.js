@@ -88,7 +88,7 @@ class Main extends React.Component {
               <Accordion.Collapse eventKey="0">
                 <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
                 <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Web Developer | Berlin (DE) | Jul 2020 -</p>
-                <p className="small-description-text">Work with the Website Team to improve frontend and add new features to the TechLabs website.</p>
+                <p className="small-description-text">Work with the Website Team to improve and add new features to the <a href="https://www.techlabs.org/" target="_blank" rel="noopener noreferrer">TechLabs</a> website.</p>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -154,7 +154,7 @@ class Main extends React.Component {
               <Card.ImgOverlay className="portfolio-card">
                 <div className="portfolio-card-content">
                   <Card.Title><strong>
-                    <a href="https://www.juliaweidner.com/" target="_blank" rel="noopener noreferrer">Julia Weidner</a></strong></Card.Title>
+                    <a href="https://juliaweidner.netlify.app/" target="_blank" rel="noopener noreferrer">Julia Weidner</a></strong></Card.Title>
                   <Card.Text>
                   Portfolio Website for Julia Weidner, screenwriter based in Munich. Made with <strong>GatsbyJS</strong>, <strong>React</strong>.
                   </Card.Text>
