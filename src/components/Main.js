@@ -55,7 +55,7 @@ class Main extends React.Component {
               <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>Git/Github</li>
               <li><span className="fa-li"><i className="icon fa-angle-double-right"></i></span>PostgreSQL/SQLite</li>
             </ul> 
-            The learning didn't stop with the bootcamp, though: I keep on training my RoR skills and diving into <strong>React</strong> and <strong>Node.js</strong>.
+            The learning didn't stop with the bootcamp, though: I kept on training my RoR skills and learned <strong>Angular</strong>, <strong>React</strong> and <strong>Node.js</strong>.
           </p>
           {close}
         </article>
@@ -79,6 +79,19 @@ class Main extends React.Component {
             to deliver the best results, and how to take ownership and show initiative. Now I work as a <strong>freelance Web Developer</strong> and <strong>Translator/Localizator</strong>.           
           </p>
           <Accordion>
+          <Card style={ cardStyle }>
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="4" className="accordion-button">
+                  StudySmarter
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="4">
+                <Card.Body style={{borderTop: '0.5px solid rgba(255,255,255,.3)'}}>
+                <p style={{fontSize: '0.7rem', marginBottom: '0.5rem'}}>Software Development Intern | Munich (DE) | Aug 2020 -</p>
+                <p className="small-description-text">Debugging, code optimization, development of an Angular Component Library.</p>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
           <Card style={ cardStyle }>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0" className="accordion-button">
